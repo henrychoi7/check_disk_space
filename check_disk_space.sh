@@ -31,6 +31,7 @@ NOTIFICATION_EMAIL="handong@mareel.io"
 
 ## Uncomment and set a custom hostname, default uses the system's hostname
 #HOSTNAME="web-server1"
+HOSTNAME="korea-146-56-42-103"
 
 
 ## Other variables required for the script
