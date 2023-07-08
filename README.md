@@ -54,11 +54,11 @@ crontab -e
 Add the below crontab entry to run this script hourly.
 
 ## Monitor disk space
-0   *   *   *   *   bash check_disk_space.sh -w 30 -c 15  -d / 
-1
-2
-## Monitor disk space
-0   *   *   *   *   bash check_disk_space.sh -w 30 -c 15  -d / 
+0   *   *   *   *   bash check_disk_space.sh -w 30 -c 15  -d /
+
+## Monitor disk space (For Mareel and Gambit)
+0 * * * * bash check_disk_space.sh -c 15 -w 25 -d /dev/sda1
+
 Save the cron file and close it.
 
 Conclusion
